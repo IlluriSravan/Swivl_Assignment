@@ -24,7 +24,7 @@ Created two tables 1.user and 2.recipees inside app.db file with sample data.
 | ingredients     | TEXT    |
 | instructions    | TEXT    |
 | imageUrl        | TEXT    |
-| id              |INT      |
+| id              | INT     |
 
 and written APIs to perform operations on the database,
 
@@ -34,10 +34,6 @@ and written APIs to perform operations on the database,
 
 #### Method: `POST`
 
-  - **Sample API**
-    ```
-    /todos/?status=TO%20DO
-    ```
   - **Description**:
 
     Returns a token on success LOGIN
@@ -108,7 +104,7 @@ Authorization: Bearer "jwtToken"
 
 Adds a new recipe item to database
 
-- **Scenario 1**
+
 
   - **Request**
     ```
